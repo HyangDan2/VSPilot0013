@@ -35,15 +35,13 @@ pip install -r requirements.txt
 ```
 ▶ Run
 ```bash
-Copy
-Edit
 python -m src.app
 ```
 
 ## 📂 Project Structure
 ```pgsql            
-app.py               # entry point
 src/
+  app.py             # entry point
   main_window.py     # main UI and orchestration
   processor.py       # image processing pipeline
   detection.py       # FaceMesh + EAR detection + drowsiness monitor
